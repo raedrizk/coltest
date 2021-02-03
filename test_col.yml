@@ -1,0 +1,8 @@
+---
+- name: test
+  hosts: all
+  tasks:
+  - name: using collection with no fqcn
+    insights_config: 
+      display_name: "test"
+    become: true
